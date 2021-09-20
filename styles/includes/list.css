@@ -1,0 +1,69 @@
+#dashboard #list{
+    flex: 1 0 100%;
+    min-height: 85vh;
+    padding: 1rem .5rem;
+    background-color: var(--gris);
+}
+
+#list form{
+    background-color: var(--cemento);
+}
+#list form fieldset{
+    display: flex;
+    flex-wrap: wrap;
+}
+#list form input{
+    border: none;
+    border-radius:.25rem 0 0 .25rem;
+}
+#list form .btn-search{
+    background-color: var(--modal);
+    color: snow;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+#list form .btn-filter{
+ margin-left: 1rem ;
+ border-radius: 8px;
+}
+
+#list .header-items{
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: .25rem;
+height: 3rem;
+
+}
+#list .header-items li{
+    display: flex;
+    color: var(--place);
+    justify-content: center;
+    align-items: center;
+}
+
+#list .content-items{
+    display: flex;
+    flex-direction: column;
+}
+
+#list .content-items li{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: .25rem;
+    height: 2rem;
+    margin-bottom: .25rem;
+}
+
+#list .content-items li span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#list .content-items li .btn-pop{
+    background-color:var(--primary);
+    color: snow;
+    border-radius: 0 .25rem .25rem 0;
+}
