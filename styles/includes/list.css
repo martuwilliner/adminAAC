@@ -67,3 +67,16 @@ height: 3rem;
     color: snow;
     border-radius: 0 .25rem .25rem 0;
 }
+
+.verinfo{
+    cursor:pointer;
+}
+.show{
+    cursor:pointer;
+}
+.show:hover{
+    background-color: var(--cemento);
+}
+.search{
+    cursor:pointer;
+}

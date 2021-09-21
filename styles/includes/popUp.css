@@ -1,0 +1,97 @@
+.popUp{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(95, 97, 97, 0.3);
+    
+}
+.popUp .content{
+    width: 50vw;
+    height: 65vh;
+    background-color: var(--gris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.popUp h2{
+    width: 100%;
+    height: 10%;
+    color: var(--primary);
+    background-color:snow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.popUp h2 span{ 
+    font-size: 2rem;
+    padding:1rem;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top:.8rem;
+}
+.left{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    height: auto;
+    background-color: snow;
+}
+.left p{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.right{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: auto; 
+}
+.btn-dowload{
+    cursor: pointer;
+    background-color:var(--cemento);
+    width: 75%;
+    margin: .5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-radius:.5rem;
+    transition: all .3s ease-in-out;
+}
+.btn-dowload:hover{
+    background-color: var(--modal)
+}
+.btn-enable{
+    background-color: var(--primary);
+    width: 75%;
+    margin: .5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-radius:.5rem;
+    color: snow;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.btn-enable:hover{
+    background-color: var(--place)
+}
